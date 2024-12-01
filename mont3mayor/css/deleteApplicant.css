@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f0fdf4; /* Light Green */
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #b91c1c; /* Dark Red */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #047857; /* Dark Green */
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Container */
+.container {
+    border: 2px solid #b91c1c; /* Dark Red */
+    background-color: #ffcbd1; /* Soft Red */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* Delete Button */
+.deleteBtn {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.deleteBtn form input[type="submit"] {
+    background-color: #f87171; /* Vibrant Red */
+    color: #fff;
+    border: 2px solid #b91c1c; /* Dark Red */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deleteBtn form input[type="submit"]:hover {
+    background-color: #dc2626; /* Darker Red */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Table (if needed for displaying info) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid #047857; /* Dark Green */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #047857; /* Dark Green */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #d1fae5; /* Light Green */
+}
+
+tr:nth-child(odd) {
+    background-color: #f0fdf4; /* Lighter Green */
+}
+
+/* Cancel Button */
+.cancelBtn {
+    margin-top: 20px;
+}
+
+.cancelBtn a {
+    display: inline-block;
+    background-color: #9ca3af; /* Neutral Gray */
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.cancelBtn a:hover {
+    background-color: #6b7280; /* Darker Gray */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}

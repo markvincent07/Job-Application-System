@@ -1,0 +1,86 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f0fdf4; /* Light Green */
+    color: #000;
+    padding: 20px;
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #047857; /* Dark Green */
+}
+
+/* User List */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #e6f8e9; /* Soft Light Green */
+    border: 2px solid #047857; /* Dark Green */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #047857; /* Dark Green */
+    color: #000;
+    font-size: 1.2em;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li:hover {
+    background-color: #c7f6d8; /* Soft Vibrant Green */
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar */
+nav {
+    background-color: #047857; /* Dark Green */
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+nav .welcome-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d1fae5; /* Light Greenish White */
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links a {
+    color: #d1fae5; /* Light Greenish White */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    background-color: #065f46; /* Darker Green */
+}
