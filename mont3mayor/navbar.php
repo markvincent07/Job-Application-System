@@ -1,5 +1,5 @@
 <nav>
-    <div class="welcome-message">Hello there! Welcome, mark</div>
+    <div class="welcome-message">Hello there! Welcome, <?php echo $_SESSION['username']?></div>
     <div class="nav-links">
         <a href="index.php">Home</a>
         <a href="insertApplicant.php">Add New Applicant</a>
